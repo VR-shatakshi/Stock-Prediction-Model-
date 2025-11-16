@@ -1,56 +1,17 @@
 body {
-    background-image:url(C:\Users\acer\Desktop\django+react\frontend-react\stock-frontend\src\image.png);
-    font-family: 'gaglin' !important;
-    font-weight: bold !important;
+    background-color:black;
+    font-family: 'Times roman'!important;
 }
 
 .navbar{
-    background-color:gray!important;
-    border-color:bold 2px whitesmoke !important ;
-    border: 5px solid black !important;
-
-
+    background-color: gray !important; 
+    color :yellowgreen !important;
 }
 .navbar-brand {
-    color: #8CE4FF !important; 
+    color :yellow !important;
+    font-style: italic;
+    font-weight: 200;
+    font-size: bolder ;
 }
-
-
-.card-container {
-    display: flex;
-    justify-content: center;   /* centers horizontally */
-    align-items: center;        /* centers vertically */
-    height: 100vh;              /* full page height */
-}
-
-.card-body{
-    width: 1000px;               /* optional: card width */
-    padding: 20px;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-color: aqua;
-}
-
-
-.container-footer {
-    background-color: gray;
-    width: 100%;
-    display: flex;
-    justify-content: center;   /* centers the footer card horizontally */
-    align-items: center;
-    padding: 20px 0;
-    /* padding-left:80px; 
-    padding-right: 80px;  */
-    border: 5px solid black !important;
-    margin-top: 20px;
-}
-
-.container-footer.card {
-    width: 100%;                /* makes it stretch full width */
-    max-width: 900px;  
-   
-}
-
 
 
