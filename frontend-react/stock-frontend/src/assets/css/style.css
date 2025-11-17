@@ -1,17 +1,51 @@
-body {
-    background-color:black;
-    font-family: 'Times roman'!important;
+
+.navbar {
+    background-color: gray !important;
+    color: yellowgreen !important;
+    border: 2px solid whitesmoke;
 }
 
-.navbar{
-    background-color: gray !important; 
-    color :yellowgreen !important;
-}
 .navbar-brand {
-    color :yellow !important;
+    color: yellow !important;
     font-style: italic;
-    font-weight: 200;
-    font-size: bolder ;
+    font-weight: bold;
 }
 
 
+.bg-light-dark {
+    background-color: blueviolet !important;
+    border: 2px solid whitesmoke;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Times New Roman', serif !important;
+}
+
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-content {
+    flex: 1; 
+}
+
+
+.footer {
+    padding: 30px !important;
+    color: white;
+    text-align: center;
+}
+
+
+.row {
+    background-color: blueviolet;
+}
